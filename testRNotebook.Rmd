@@ -1,0 +1,18 @@
+---
+title: "R Notebook"
+output: html_notebook
+---
+# Heading
+
+Hello world
+
+```{r}
+library(here)
+```
+```{r}
+data_path<- here("data","data.csv")
+```
+```{r}
+read.csv(data_path)
+```
+
